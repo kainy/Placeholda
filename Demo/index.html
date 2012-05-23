@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Placeholda</title>
+	<style>
+		.fakeLabel_Placeholda{
+			position: absolute;
+			text-indent: 8px;
+			color: #999999;
+			font-size: 12px;
+			cursor: text;
+		}
+		.dn{
+			display: none;
+		}
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/mootools/1.4.1/mootools-yui-compressed.js"></script>
+	<script src="../Source/Placeholda.js"></script>
+	<script>
+		window.addEvent('domready', function(){
+			var placeholder= new Placeholda();
+		});
+	</script>
+</head>
+<body>
+	<input type="text" placeholder="用户名" />
+	<input type="password" placeholder="密  码" />
+	<textarea placeholder="多行的文本输入控件"></textarea>
+</body>
+</html>
